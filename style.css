@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sf-pro";
+}
+.nav{
+    height: 50px;
+    width:100%;
+    background-color:white;
+    color: black;
+    position: fixed;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+ul li{
+    margin-top: 20px;
+}
+.iphone{
+    width: 100%;
+    min-height: 500px;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.iphone-con{
+   display: flex;
+   width: 60%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5rem;
+   min-height: 300px;
+   padding-top: 1rem;
+   position: relative;
+}
+.iphone-con h1{
+   font-size: 3.5rem;
+}
+.iphone-con h3{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.iphone-con span{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    margin: 0 auto;
+}
+.iphone-btn1{
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.iphone-btn1{
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: none;
+}
+.iphone-btn2{
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.iphone-btn2{
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+}
+.iphone-btn2:hover{
+    background-color:#0077ED;
+    color:white;
+}
+.iphone-con h4{
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgba(29, 137, 248, 1) 0%, rgba(205, 108, 222, 1) 50%, rgba(244, 126, 119, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 95%;
+}
+.watch{
+    width: 100%;
+    min-height: 600px;
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.watch-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+    width: 60%;
+    gap: 1rem;
+}
+img{
+    width: 100%;
+}
+.watch-con h1{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+}
+.watch-con h2{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+}
+.watch-con h3{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+.watch-con span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.watch-btn1{
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.watch-btn1{
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: non
+}
+.watch-btn2{
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+}
+.watch-btn2:hover{
+    background-color: #0077ED;
+    color: #F5F5F7;
+}
+.mothers-day{
+    width: 100%;
+    min-height: 550px;
+    background-image: url(image3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 2rem 0;
+    margin-top: 20px;
+}
+.mothers-day h1{
+    font-size: 3.5rem;
+}
+.mothers-day h3{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+.shop-btn{
+    padding: 0.7rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    border: none;
+    background-color: #0077ED;
+    color: #F5F5F7;
+    margin-top: 1rem;
+}
+.macbook{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    gap: 1.7rem;
+    padding: 0 0.7rem;
+    margin-top: 30px;
+}
+.macbook-air{
+    width: 50%;
+    height: 600px;
+    background-image: url(image4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+.mactext-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+.mactext-top h1{
+    font-size: 2.5rem;
+}
+.mactext-top h2{
+    font-size: 1.3rem;
+    font-weight: 200
+}
+.mactext-top h3{
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.mactext-top span{
+    display: flex;
+     gap: 0.5rem;
+}
+.mactext-top .learnmore{
+    padding: 0.5rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: none;
+}
+.mactext-top .buy-btn{
+    padding: 0.5rem 1.4rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    background-color: transparent
+}
+.buy-btn:hover{
+    background-color: #0077ED;
+    color: #F5F5F7;
+}
+.mactext-bottom{
+    display: block;
+    unicode-bidi: isolate;
+}
+.mactext-bottom h4{
+    font-size: 1rem;
+    background: linear-gradient(90deg, rgba(29, 137, 248, 1) 0%, rgba(205, 108, 222, 1) 50%, rgba(244, 126, 119, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 200;
+}
+.macdoes{
+    width: 50%;
+    height: 600px;
+    background-image: url(image5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 0.5rem;
+}
+.macdoes h1{
+    font-size: 2.5rem;
+}
+.macdoes h1>span{
+    background-color: #00FF00;
+}
+.macdoes h2{
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.macdoes .learnmore{
+    padding: 0.5rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: none;
+}
+.ipad-air{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    gap: 0.7rem;
+    padding: 0 0.7rem;
+}
+.ipad{
+    width: 50%;
+    height: 600px;
+    background-image: url(image8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem 0;
+    margin-top:20px;
+}
+.ipadtext-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.ipadtext-top h3{
+    font-size: 1.3rem;
+    font-weight: 200
+}
+.ipadtext-top span{
+    display: flex;
+    gap: 0.5rem;
+}
+.ipadtext-top .learnmore{
+    padding: 0.5rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: none;
+}
+.ipadtext-top .buy-btn{
+    padding: 0.5rem 1.4rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    background-color: transparent;
+}
+.ipadtext-top .buy-btn:hover{
+    background-color: #0077ED;
+    color: #F5F5F7;
+}
+.ipadtext-bottom{
+    display: block;
+    unicode-bidi: isolate;
+}
+.ipadtext-bottom h4{
+    font-size: 1rem;
+    background: linear-gradient(90deg, rgba(29, 137, 248, 1) 0%, rgba(205, 108, 222, 1) 50%, rgba(244, 126, 119, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 200;
+}
+.airpods{
+    width: 50%;
+    height: 600px;
+    background-image: url(image7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+    padding: 2rem 0;
+    margin-top: 20px;
+}
+.airpods h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.airpods h3{
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: white;
+}
+.airpods .learnmore{
+    padding: 0.5rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #0077ED;
+    color: #F5F5F7;
+    border: none;
+}
+.airpods .buy-btn{
+    padding: 0.5rem 1.4rem;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    background-color: transparent;
+}
+.airpods .buy-btn:hover{
+    background-color: #0077ED;
+    color: #F5F5F7;
+}
